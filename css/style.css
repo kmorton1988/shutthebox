@@ -12,8 +12,12 @@ body {
     height: 100vh;
     overflow: auto;
     width: 100%;
-
   }
+
+  .title {
+    width: 80%;
+    margin: 1em auto;
+}
 
 .container {
     width: 90%;
@@ -24,12 +28,10 @@ body {
     height: 90%;
 }
 
-.title {
-    width: 80%;
-    margin: 1em auto;
-}
+
 
 .dicetray {
+    display: grid;
     width: 100%;
     height: auto;
     margin: 0 auto;
@@ -40,22 +42,21 @@ body {
 }
 
 .numbers {
-    display: grid;
-    grid-auto-columns: auto;
+    display: block;
     width: 80%;
     margin: 1em auto;
 }
 
 .number {
-
+    float: left;
     min-height:10%;
-    min-width: 7%;    
+    min-width: 6%;    
     border: 2px solid black;
     color: rgb(17, 85, 17);
     font-weight: 600;
     font-size: 300%;
     text-align: center;
-    margin: 1em auto;
+    margin: 1em .5%;
 }
 
 .roll {
