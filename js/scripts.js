@@ -10,6 +10,7 @@ function rollDice() {
     dice.forEach(die => {
       toggleClasses(die);
       die.dataset.roll = getRandomNumber(1, 6);
+      console.log(die.dataset.roll);
     });
   }
   

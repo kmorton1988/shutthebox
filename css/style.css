@@ -59,9 +59,9 @@ body {
     margin: 1em .5%;
 }
 
-.roll {
-    width: 50%;
-    margin: 1em auto;
+.dicearea{
+  width: 50%;
+  margin: 0 auto;
 }
 
 /* DICE CSS */
@@ -241,14 +241,11 @@ body {
   }
   
   button {
-    margin: 10px auto;
-    align-self: center;
     background-color: #efefef;
     border: none;
     color: #333;
     font-size: 1.25rem;
     font-weight: 700;
-    justify-self: center;
     padding: 0.5rem 1rem;
   }
 
